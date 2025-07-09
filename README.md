@@ -39,6 +39,10 @@ npm install
 3. Start the React app:
 npm start
 
+## Testing: 
+For the backend, I used Jest and Supertest to verify the REST API returns correct data and errors.
+For the frontend, I wrote unit tests with React Testing Library to validate rendering of stock cards and the chart.
+
 ## Notes
 - The polling interval is set to 60 seconds due to API rate limits.
 
