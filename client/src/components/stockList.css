@@ -1,0 +1,33 @@
+.stock-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.stock-card {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 160px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.stock-card:hover {
+  transform: translateY(-3px);
+} 
+
+
+
+
+.stock-card.positive {
+  background-color: #e0ffe0;
+  color: #006400;
+}
+
+.stock-card.negative {
+  background-color: #ffe0e0;
+  color: #8b0000;
+}
