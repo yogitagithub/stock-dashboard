@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -20,5 +21,12 @@
     "socket.io": "^4.8.1",
     "websocket": "^1.0.35",
     "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "jest": "^30.0.4",
+    "supertest": "^7.1.3"
+  },
+  "jest": {
+    "testEnvironment": "node"
   }
 }
